@@ -102,7 +102,7 @@ function Home() {
           </FadeIn>
           <FadeIn direction='left'>
             <img
-              src='/src/assets/Canada-farm.jpg'
+              src='/Canada-farm.jpg'
               alt='Farmacy by Navi'
               className='rounded-3xl w-full h-72 md:h-96 object-cover'
             />
@@ -144,7 +144,7 @@ function Home() {
           <FadeIn delay={0.15} direction='up'>
             <div className='bg-[#FAFAF7] rounded-3xl overflow-hidden'>
               <img
-                src='/src/assets/about-hero.jpg'
+                src='/about-hero.jpg'
                 alt='Farmacy by Navi'
                 className='rounded-3xl w-full h-52 md:h-64 object-cover'
               />

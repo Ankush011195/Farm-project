@@ -8,7 +8,7 @@ function About() {
       {/* Hero */}
       <section className='relative px-6 md:px-10 py-20 md:py-32 overflow-hidden min-h-[500px] flex items-center'>
         <video
-          src='/src/assets/story.mp4'
+          src='/story.mp4'
           autoPlay
           loop
           muted
@@ -34,7 +34,7 @@ function About() {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-center'>
           <FadeIn direction='right'>
             <img
-              src='/src/assets/founder-pic.jpeg'
+              src='/founder-pic.jpeg'
               alt='Navpreet Singh Pandher'
               className='rounded-3xl w-full h-72 md:h-96 object-contain object-top'
             />

@@ -1,4 +1,3 @@
-import logo from '../assets/logofarmweb.png'
 
 function Footer() {
   return (
@@ -7,7 +6,7 @@ function Footer() {
 
         {/* Logo + Tagline */}
         <div>
-          <img src={logo} alt='Farmacy by Navi' className='h-8 w-auto mb-2' />
+          <img src='logofarmweb.png' alt='Farmacy by Navi' className='h-8 w-auto mb-2' />
           <p className='text-xs text-[#7A7560]'>Growing honestly, always.</p>
         </div>
 

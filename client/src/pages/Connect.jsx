@@ -38,7 +38,7 @@ function Connect() {
       {/* Hero */}
       <section className='relative px-6 md:px-10 py-20 md:py-24 overflow-hidden min-h-[500px] flex items-center'>
         <img
-          src='/src/assets/farmer.jpg'
+          src='/farmer.jpg'
           alt='Connect with us'
           className='absolute inset-0 w-full h-full object-cover'
         />

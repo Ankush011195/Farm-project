@@ -6,25 +6,25 @@ function Produce() {
   const produce = [
     {
       name: 'Tomato',
-      image: '/src/assets/roms.jpeg',
+      image: '/roms.jpeg',
       description: 'Fresh, naturally grown tomatoes — rich in flavour and grown without any chemicals.',
       category: 'Tomatoes'
     },
     {
       name: 'Beef Tomato',
-      image: '/src/assets/Beef.jpeg',
+      image: '/Beef.jpeg',
       description: 'Large, meaty tomatoes perfect for salads and cooking. Grown with care on our farms.',
       category: 'Tomatoes'
     },
     {
       name: 'Cluster Tomato',
-      image: '/src/assets/Cluster.jpeg',
+      image: '/Cluster.jpeg',
       description: 'Vine-ripened cluster tomatoes — sweet, juicy, and full of natural goodness.',
       category: 'Tomatoes'
     },
     {
       name: 'Roma Tomato',
-      image: '/src/assets/roms.jpeg',
+      image: '/roms.jpeg',
       description: 'Classic Roma tomatoes with thick flesh and rich taste — ideal for sauces and cooking.',
       category: 'Tomatoes'
     },
@@ -61,7 +61,7 @@ function Produce() {
       {/* Hero */}
       <section className='relative px-6 md:px-10 py-20 md:py-32 overflow-hidden min-h-[500px] flex items-center'>
         <img
-          src='/src/assets/all.jpeg'
+          src='/all.jpeg'
           alt='Our Produce'
           className='absolute inset-0 w-full h-full object-cover'
         />

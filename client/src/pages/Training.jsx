@@ -29,7 +29,7 @@ function Training() {
       {/* Hero */}
       <section className='relative px-6 md:px-10 py-20 md:py-32 overflow-hidden min-h-[500px] flex items-center'>
         <img
-          src='/src/assets/training.jpg'
+          src='/training.jpg'
           alt='Training & Education'
           className='absolute inset-0 w-full h-full object-cover'
         />

@@ -29,7 +29,7 @@ function Gallery() {
       {/* Hero */}
       <section className='relative px-6 md:px-10 py-20 md:py-24 overflow-hidden min-h-[500px] flex items-center'>
         <img
-          src='/src/assets/inside.jpg'
+          src='/inside.jpg'
           alt='Farm Life'
           className='absolute inset-0 w-full h-full object-cover'
         />
