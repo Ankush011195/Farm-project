@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
-import { useNavigate, Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import axios from '../../api/axios.js'
+import AdminNavbar from '../../components/AdminNavbar.jsx'
 
 function Dashboard() {
   const [messages, setMessages] = useState([])
@@ -42,28 +43,9 @@ function Dashboard() {
     }
   }
 
-  const handleLogout = () => {
-    localStorage.removeItem('token')
-    navigate('/admin/login')
-  }
-
   return (
     <div className='min-h-screen bg-[#F2EDE3]'>
-
-      {/* Admin Navbar */}
-      <div className='bg-[#1A1F12] px-6 md:px-10 py-4 flex justify-between items-center'>
-        <p className='text-base font-medium text-[#F0EDE6]'>
-         Farmacy <span className='text-[#7A9955]'>by Navi</span>
-          <span className='text-xs text-[#5A6048] ml-2'>Admin</span>
-        </p>
-        <div className='flex gap-4 md:gap-6 items-center'>
-          <Link to='/admin/dashboard' className='text-xs text-[#7A9955] no-underline'>Messages</Link>
-          <Link to='/admin/gallery' className='text-xs text-[#5A6048] hover:text-[#7A9955] no-underline'>Gallery</Link>
-          <button onClick={handleLogout} className='text-xs text-[#5A6048] hover:text-red-400'>
-            Logout
-          </button>
-        </div>
-      </div>
+      <AdminNavbar />
 
       {/* Content */}
       <div className='px-6 md:px-10 py-8 md:py-10'>

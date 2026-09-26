@@ -8,6 +8,7 @@ import { v2 as cloudinary } from 'cloudinary'
 import authRoutes from './routes/auth.js'
 import galleryRoutes from './routes/gallery.js'
 import contactRoutes from './routes/contact.js'
+import visitRoutes from './routes/visits.js'
 
 const app = express()
 app.use(cors())
@@ -24,6 +25,8 @@ cloudinary.config({
 app.use('/api/auth', authRoutes)
 app.use('/api/gallery', galleryRoutes)
 app.use('/api/contact', contactRoutes)
+app.use('/api/visits', visitRoutes)
+
 
 app.get('/', (req, res) => {
   res.send('Server chal raha hai!')
