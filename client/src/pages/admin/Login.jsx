@@ -19,7 +19,7 @@ function Login() {
       setError('')
       const res = await axios.post('/auth/login', formData)
       localStorage.setItem('token', res.data.token)
-      navigate('/admin/dashboard')
+      navigate('/admin/visits')
     } catch (err) {
       setError('Email ya password galat hai')
     } finally {
