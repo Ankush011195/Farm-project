@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
 import About from './pages/About'
 import OurFarms from './pages/OurFarms'
@@ -23,12 +24,13 @@ function Layout() {
 
   return (
     <>
+      <ScrollToTop />
       {!isAdminPage && <Navbar />}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/produce' element={<Produce />} />
-        <Route path="/OurFarms" element={<OurFarms />} />
+        <Route path="/Ourfarms" element={<OurFarms />} />
         <Route path="/farmacy-standard" element={<Standard />} />
         <Route path="/journal" element={<Journal />} />
         <Route path="/visit" element={<VisitRegister />} />
